@@ -10,8 +10,8 @@ export default function Home() {
   const [isTextHovered, setIsTextHovered] = useState(false)
 
   const textArray = [
-    "Unterach braucht den Tourismus, aber um den Charakter des Ortes (Klein Venedig) zu erhalten, muss es ein sanfter sein. Ist nun ein so gigantisches Projekt die Lösung der finanziellen Probleme des Ortes?",
-    "In Unterach am Attersee steht derzeit ein riesiges Hotelprojekt kurz vor der Genehmigung. Das geplante Hotel Resort soll mit 308 Betten das größte Hotel der Region werden, verbunden mit einem riesigen Flächen- und Ressourcenverbrauch – fast doppelt so groß als das bisher größte Hotel „Winzer" in St. Georgen.",
+    `Unterach braucht den Tourismus, aber um den Charakter des Ortes (Klein Venedig) zu erhalten, muss es ein sanfter sein. Ist nun ein so gigantisches Projekt die Lösung der finanziellen Probleme des Ortes?",
+    "In Unterach am Attersee steht derzeit ein riesiges Hotelprojekt kurz vor der Genehmigung. Das geplante Hotel Resort soll mit 308 Betten das größte Hotel der Region werden, verbunden mit einem riesigen Flächen- und Ressourcenverbrauch – fast doppelt so groß als das bisher größte Hotel „Winzer" in St. Georgen.`,
     "Es ist geplant über dem Ortskern ein Resort Hotel, welches sich über die gesamte obere Hausstatt ausdehnt, zu errichten. Die Darstellung zeigt das geplante Resort wie es, von der Unterach gegenüberliegenden Seeseite in seiner Ausdehnung/Dimension zu erkennen sein wird.",
     "Die Gesamtlänge der Anlage beträgt 210 m und ist somit größer als der Linzer Hauptplatz. Im Vergleich dazu, die Uferpromenade in Unterach ist nur 150 m lang.",
     "Insgesamt wird eine Fläche von ca. 8.000m² verbaut und versiegelt (das entspricht der Fläche von 80 Einfamilienhäusern).",

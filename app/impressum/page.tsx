@@ -1,7 +1,6 @@
 "use client";
 
-import { animate } from "motion";
-import { easeIn, easeInOut, motion } from "motion/react"
+import { animate, easeIn, easeInOut, motion } from "framer-motion"
 import { useEffect, useState } from "react";
 
 import { MdOutlineAttachEmail, MdOutlineMailLock, MdArrowBack } from "react-icons/md";

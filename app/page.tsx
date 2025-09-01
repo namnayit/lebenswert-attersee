@@ -161,7 +161,7 @@ export default function Home() {
         </motion.h1>
 
         {/* PDF Section - Responsive */}
-        <div className="absolute top-32 md:top-1/5 right-4 md:right-10 h-auto md:h-[-webkit-fill-available] z-[100] w-[90vw] md:w-[40vw]">
+        <div className="absolute top-32 md:top-1/5 right-4 md:right-10 bottom-32 md:bottom-20 z-[100] w-[90vw] md:w-[40vw] flex flex-col">
           <motion.div
             className="z-[70] mb-3"
             initial={{ opacity: 0 }}
@@ -188,10 +188,10 @@ export default function Home() {
           </motion.div>
 
           <motion.div
-            initial={{ opacity: 0, height: "200px" }}
-            animate={{ opacity: 1, height: "300px" }}
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
             transition={{ delay: 1.5, duration: 1.5, ease: "easeInOut" }}
-            className="z-40 w-full md:h-[83.333%]"
+            className="z-40 w-full flex-1 min-h-[300px] md:min-h-[400px]"
             id="PDF_Box"
           >
             <object

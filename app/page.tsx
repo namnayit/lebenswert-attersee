@@ -194,25 +194,38 @@ export default function Home() {
             className="z-40 w-full flex-1 min-h-[300px] md:min-h-[400px]"
             id="PDF_Box"
           >
-            <object
-              data={`${currentPDF}#zoom=page-fit`}
-              type="application/pdf"
-              width="100%"
-              height="100%"
-              className="rounded-lg shadow-lg"
-            >
-              <div className="bg-gray-800 p-4 rounded-lg text-center">
-                <p className="text-white">PDF kann nicht angezeigt werden.</p>
-                <a 
-                  href={currentPDF} 
-                  target="_blank" 
-                  rel="noopener noreferrer"
-                  className="text-cyan-400 underline hover:text-cyan-300"
+            <div className="w-full h-full rounded-lg shadow-lg overflow-hidden bg-white">
+              <iframe
+                src={`${currentPDF}#zoom=page-fit&view=FitH`}
+                width="100%"
+                height="100%"
+                className="w-full h-full border-0"
+                title="PDF Viewer"
+              />
+              <div className="hidden md:block absolute inset-0 pointer-events-none">
+                <object
+                  data={`${currentPDF}#zoom=page-fit`}
+                  type="application/pdf"
+                  width="100%"
+                  height="100%"
+                  className="w-full h-full"
                 >
-                  Dokument öffnen
-                </a>
+                  <div className="bg-gray-800 p-4 rounded-lg text-center h-full flex items-center justify-center">
+                    <div>
+                      <p className="text-white mb-2">PDF kann nicht angezeigt werden.</p>
+                      <a 
+                        href={currentPDF} 
+                        target="_blank" 
+                        rel="noopener noreferrer"
+                        className="text-cyan-400 underline hover:text-cyan-300 pointer-events-auto"
+                      >
+                        Dokument öffnen
+                      </a>
+                    </div>
+                  </div>
+                </object>
               </div>
-            </object>
+            </div>
           </motion.div>
         </div>
 

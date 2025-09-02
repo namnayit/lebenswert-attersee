@@ -173,7 +173,7 @@ export default function Home() {
         </motion.h1>
 
         {/* PDF Section - Responsive */}
-        <div className="absolute top-5/12 md:top-1/5 right-4 md:right-10 bottom-32 md:bottom-20 z-[100] w-[90vw] md:w-[40vw] flex flex-col">
+        <div className="absolute top-6/12 md:top-1/5 right-4 md:right-10 bottom-32 md:bottom-20 z-[100] w-[90vw] md:w-[40vw] flex flex-col">
           <motion.div
             className="z-[70] mb-3"
             initial={{ opacity: 0 }}
@@ -260,7 +260,7 @@ export default function Home() {
 
         {/* Changing Text - Responsive */}
         <motion.div
-          className="absolute bottom-20 md:bottom-[5vh] left-4 md:left-[2.5vw] z-[60] text-sm sm:text-base md:text-lg lg:text-xl xl:text-2xl 3xl:text-3xl w-[90vw] md:w-[50vw] flex justify-center text-center h-auto md:h-[30vh] max-h-64 px-4 md:px-0"
+          className="absolute bottom-16 md:bottom-[5vh] left-4 md:left-[2.5vw] z-[60] text-xs sm:text-base md:text-lg lg:text-xl xl:text-2xl 3xl:text-3xl w-[90vw] md:w-[50vw] flex justify-center text-center h-auto md:h-[30vh] max-h-64 px-4 md:px-0"
           id="changing_text"
           initial={{ opacity: 0 }}
           animate={{ opacity: [0, 0, 1] }}

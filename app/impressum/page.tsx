@@ -33,7 +33,7 @@ export default function Impressum() {
               whileHover={{ scale: 1.05 }}
               onClick={() => window.history.back()}
             >
-              <MdArrowBack className="text-2xl mr-2" />
+              <MdArrowBack className="text-lg md:text-2xl mr-1 md:mr-2" />
               <span className="text-lg font-semibold">Zurück</span>
             </motion.div>
             
@@ -45,7 +45,7 @@ export default function Impressum() {
                 transition: { duration: 0.2, ease: easeInOut }
               }}
             >
-              <MdOutlineAttachEmail className="text-2xl md:text-3xl" />
+              <MdOutlineAttachEmail className="text-lg md:text-3xl" />
               <a href="mailto:info@lebenswert-attersee.at" className="text-lg md:text-xl ml-2 underline">
                 info@lebenswert-attersee.at
               </a>

@@ -233,7 +233,7 @@ export default function Home() {
         </div>
 
         {/* Bottom Navigation - Responsive */}
-        <div className="absolute bottom-4 md:bottom-[2.5vh] right-4 md:right-8 z-[200] flex flex-col sm:flex-row gap-4 items-end">
+        <div className="absolute bottom-4 md:bottom-[2.5vh] right-4 md:right-8 z-[200] flex items-center gap-4">
           <Link href={"/impressum"}>
             <motion.div
               className="text-lg md:text-xl xl:text-2xl 3xl:text-3xl cursor-pointer"
